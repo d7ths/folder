@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    color: rgb(255, 0, 0);
+    text-rendering: pixelated;
+    
+}
+body {
+    background-image: url('bg_dark_anim_0_08.gif');
+  }
+
+h1{
+    background-color: rgb(255, 0, 0);
+}
+
+article {
+    display: block;
+    padding: 5px;
+    width: 95%;
+    height: 50%;
+    max-width: 900px;
+    max-width: 900px;
+    background-color: black;
+   
+}
+.cursor1{
+    cursor: url('Normal\ select.cur'), auto;
+    
+}
+.cursor2{
+    cursor: url('Link\ select.cur'), auto;
+}
+
+.shadowed {
+    box-shadow: 0px 0px 10px 10px #ff0000;
+}
